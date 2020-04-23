@@ -12,5 +12,12 @@ class Dog
   def name
     @name
 #binding.pry
+  def breed=(breed)
+    @breed = breed
+  end
+
+  def breed
+    @breed
+  end
   end
 end

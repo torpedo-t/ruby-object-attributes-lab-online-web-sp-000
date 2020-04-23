@@ -12,6 +12,7 @@ class Dog
   def name
     @name
 #binding.pry
+
   def breed=(breed)
     @breed = breed
   end
@@ -20,6 +21,7 @@ class Dog
     @breed
   end
   end
-  fido = Dog.new
-  fido.name
 end
+
+fido = Dog.new
+fido.name

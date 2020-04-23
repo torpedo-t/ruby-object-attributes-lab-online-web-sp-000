@@ -1,16 +1,13 @@
 require 'pry'
 class Dog
 
-  #def initialize(name)
-  #  @name = name
-  #end
-
   def name=(name)
     @name = name
   end
 
   def name
     @name
+  end
 #binding.pry
 
   def breed=(breed)
@@ -19,7 +16,6 @@ class Dog
 
   def breed
     @breed
-  end
   end
 end
 
